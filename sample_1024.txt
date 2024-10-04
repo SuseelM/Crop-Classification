@@ -1,0 +1,15 @@
+#use a hashtag wherever default value is to be used
+
+first_image_path =  G:\VIT_Test\1024\img\img_1024_(1).TIF
+first_mask_path = G:\VIT_Test\1024\mask\mask_1024_(1).TIF
+#number_of_samples = 8
+img_height = 1024
+img_width = 1024
+number_of_bands_in_image = 3
+batch_size = 4
+num_epochs = 20
+learning_rate = 0.001
+dropout_percentage = 0.25
+#use_default_values = yes
+
+#validation_size = 0.2

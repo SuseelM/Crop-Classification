@@ -1,0 +1,45 @@
+#use a hashtag wherever default value is to be used
+
+#MANDATORY parameters for model
+first_image_path =  G:\VIT_Test\1024\img\img_1024_(1).TIF
+first_mask_path = G:\VIT_Test\1024\mask\mask_1024_(1).TIF
+img_height = 1024
+img_width = 1024
+number_of_bands_in_image = 3
+
+class_color_file_location = G:\rams\VIT_Test\Python\class_colors.txt
+
+#optional parameters, if not default value assumed
+
+##default = number of images in folder
+#number_of_samples = 10
+
+##default = 0.2
+validation_size = 0.3
+
+
+##MODEL ARCHITECTURE PARAMETERS
+##default = 0.25
+dropout_percentage = 0.25
+
+include_weights = no
+weight_file_location = C:\Users\rcsouth\Desktop\Python and Cuda\resnet101_weights_tf_dim_ordering_tf_kernels_notop.h5
+
+
+#MODEL TRAINING PARAMETERS
+
+#default = adam
+optimiser = adam
+
+#default = categorical_crossentropy
+loss_function = categorical_crossentropy
+
+#default = 0.001
+learning_rate = 0.001
+
+#default = 2
+batch_size = 4
+
+#default = 10
+num_epochs = 20
+
